@@ -4,10 +4,10 @@
     "slug": "Scanner",
     "version": "1.0.0",
     "orientation": "portrait",
-    "icon": "./assets/icon.png",
+    "icon": "./assets/rebrandedLogo.jpg",
     "userInterfaceStyle": "light",
     "splash": {
-      "image": "./assets/splash.png",
+      "image": "./assets/rebrandedLogo.jpg",
       "resizeMode": "contain",
       "backgroundColor": "#ffffff"
     },
@@ -16,12 +16,18 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/adaptive-icon.png",
+        "foregroundImage": "./assets/rebrandedLogo.jpg",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.zhen.scanner"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "9f017851-236f-48a8-9591-89167b2fffea"
+      }
     }
   }
 }
